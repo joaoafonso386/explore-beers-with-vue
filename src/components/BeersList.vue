@@ -1,6 +1,6 @@
 <template>
   <div>
-  <v-container class="grey lighten-5 card-container">
+  <v-container class="grey lighten-5 mt-16 card-container">
     <v-row>
       <v-col
         v-for="beer in beersList"
@@ -44,10 +44,3 @@ export default {
   }), 
 }
 </script>
-
-<style scoped>
-.card-container {
-  margin-top: 50px;  
-}
-
-</style>
